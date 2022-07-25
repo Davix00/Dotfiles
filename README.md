@@ -143,7 +143,7 @@ Una vez descargado extraeremos el archvio y desde la raíz del archivo ejecutamo
 
     ColorTool.exe -c
 
-La documntación para hacer esto la encontraras en el archivo [PromptCMD.pdf](*/PromptCMD.pdf)
+La documntación para hacer esto la encontraras en el archivo [PromptCMD.pdf](dotfiles/PromptCMD.pdf)
 
 >Solo queda agraderce por leer :) **Gracias!**
 
