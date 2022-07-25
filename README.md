@@ -145,5 +145,5 @@ Una vez descargado extraeremos el archvio y desde la raíz del archivo ejecutamo
 
 La documentación para hacer esto la encontraras en el archivo `PromptCMD.pdf`
 
->Solo queda agraderce por leer :) **Gracias!**
+>Solo queda agraderte por leer :) **Gracias!**
 
