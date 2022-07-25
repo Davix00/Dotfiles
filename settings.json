@@ -1,0 +1,32 @@
+{
+  "files.autoSaveDelay": 100,
+  "files.autoSave": "afterDelay",
+  "window.zoomLevel": -1.2,
+  "editor.fontSize": 14,
+  "editor.fontFamily": "Hack NF,Consolas, 'Courier New',monospace",
+  "editor.fontLigatures": true,
+  "workbench.startupEditor": "none",
+  "explorer.confirmDelete": true,
+  "tabnine.experimentalAutoImports": true,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.renderWhitespace": "none",
+  "editor.autoIndent": "brackets",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.minimap.enabled": false,
+  "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.fontSize": 16,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.cursorBlinking": "expand",
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.colorCustomizations": {
+  
+    "[One Dark Pro Flat]": {
+      
+    }
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "One Dark Pro Flat"
+}
