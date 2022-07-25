@@ -1,15 +1,10 @@
-#scoop install oh-my-posh
-#scoop install aria2
-#scoop install git
-#scoop install fzf
 #scoop install noevim
-#Install-Module -Name Terminal-Icons -Repository PSGallery -Force
-
 cls
+
 #Load prompt configuration
 oh-my-posh init pwsh --config C:\Users\galav\scoop\apps\oh-my-posh\8.22.1\themes\atomic.omp.json | Invoke-Expression 
 
-# PsReadLine
+# 
 Import-Module PSReadLine
 Set-PSReadLineOption -EditMode Emacs
 Set-PSReadLineOption -BellStyle None
@@ -30,6 +25,7 @@ Set-Alias ll ls
 Set-Alias g git
 Set-Alias buscar findstr
 Set-Alias edge "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+
 #utilities
 function which ($command){
     Get-Command -Name $command -ErrorAction SilentlyContinue |
