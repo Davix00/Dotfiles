@@ -93,7 +93,21 @@ Para ver los temas que tiene OMP, podemos ejecutar el siguiente comando.
 Este nos mostrara en forma de lista todos y cada uno de los temas existentes después nos dirigimos al bloc de notas y pegamos el nombre del tema.
 
     C:\.\.\tema.omp.json | Invoke ....
-Si quieres crear tu tema propio o modificar un existente solo consta de abrilo en un editor de texto.
+Si quieres crear tu tema propio o modificar un existente solo consta de abrirlo en un editor de texto.
+
+Oh-My-Posh es un buen modificador del prompt, pero alenta el tiempo de apertura de nuestra terminal.
+
+Para aquellos que no nos gusta esperar ni dos segundos, tengo el siguiente modificador del prompt.
+
+[`Starship`](https://starship.rs/guide/#%F0%9F%9A%80-installation) que hace los mismo que oh-my-posh pero de una manera más rapida. Para instalarlo ejecutamos el siguiente comando:
+
+    scoop install starship
+
+Despues pegamos las siguientes lineas en nuestro perfil de powershell.
+
+    Invoke-Expression (&starship init powershell)
+
+Recomiendo que leean un poco la documentación para la modificación de este.
 
 Ahora instalaremos [`Terminal-Icons`](https://github.com/devblackops/Terminal-Icons), para ello ejecutaremos el siguiente comando.
 
@@ -143,7 +157,7 @@ Una vez descargado extraeremos el archvio y desde la raíz del archivo ejecutamo
 
     ColorTool.exe -c
 
-La documntación para hacer esto la encontraras en el archivo `PromptCMD.pdf`
+La documntación para hacer esto la encontraras en el archivo `PromptCMD.pdf`exit
 
 >Solo queda agraderce por leer :) **Gracias!**
 
