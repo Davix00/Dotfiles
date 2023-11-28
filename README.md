@@ -1,13 +1,12 @@
 # My Dotfiles
----
-Hola a todos en este readme indico las instrucciones para configurar mi terminal
 
----
+Hola a todos en este readme indico las instrucciones para configurar mi terminal.
+
 # Configuración de WT
 Al modificar el prompt utilizaremos iconos que no se encuntrar por defecto en las fuentes de Windows, así que descargate una fuente de [`NerdFonts`](https://github.com/ryanoasis/nerd-fonts/releases), yo recomiendo *Hack NF*.  
 
 Para empezar a configurar nuestra terminal yad debe estar descargada la Windows Terminal, esta la puedes conseguir desde la tienda de Microsoft si no la tienenes, los usuarios de windows 11 la traen por defecto.  
-Empezaremos actualiando la política de ejecuciónes de escript con el siguiente comando, pegalo y ejecutalo en tú terminal, este comando se ejecuta desde el modo administrador, y te recomiendo que no lo utilices amenos que sepas lo que haces  
+Empezaremos actualiando la política de ejecuciónes de escript con el siguiente comando, pegalo y ejecutalo en tú terminal, este comando se ejecuta desde el modo administrador, y te recomiendo que no lo utilices amenos que sepas lo que haces.
    
     Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 
