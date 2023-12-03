@@ -1,0 +1,75 @@
+format = """
+[](#03071e)\
+[  ](bg:#03071e fg:#ffffff)\
+$username\
+[](fg:#03071e bg:#6a040f)\
+$directory\
+[](fg:#6a040f bg:#d00000)\
+$git_branch\
+$git_status\
+[](fg:#d00000 bg:#f48c06)\
+$java\
+$dotnet\
+$php\
+$nodejs\
+[](fg:#f48c06 bg:#ffba08)\
+$time\
+[ ](fg:#ffba08)\
+\n$character"""
+
+[username]
+show_always = true
+style_user = "bg:#03071e fg:#ffffff"
+style_root = "bg:#03071e fg:#ffffff"
+format = '[David ]($style)'
+
+[directory]
+style = "bg:#6a040f fg:#ffffff"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+
+[git_branch]
+symbol = ""
+style = "bg:#d00000 fg:#ffffff"
+format = '[ $symbol $branch ]($style)'
+
+[git_status]
+style = "bg:#d00000 fg:#ffffff"
+format = '[$all_status$ahead_behind ]($style)'
+
+[dotnet]
+symbol = " "
+style = "bg:#f48c06 fg:#ffffff"
+format = '[ $symbol ($version) ]($style)'
+
+[php]
+symbol = " "
+style = "bg:#f48c06 fg:#ffffff"
+format = '[ $symbol ($version) ]($style)'
+
+[java]
+symbol = " "
+style = "bg:#f48c06 fg:#ffffff"
+format = '[ $symbol ($version) ]($style)'
+
+[nodejs]
+symbol = ""
+style = "bg:#f48c06 fg:#ffffff"
+format = '[ $symbol ($version) ]($style)'
+
+[time]
+disabled = false
+time_format = "%R"
+style = "bg:#ffba08 fg:#ffffff"
+format = '[  $time ]($style)'
+
+[character]
+success_symbol = "[ ](#ffffff)"
+error_symbol = "[ ](red)"
